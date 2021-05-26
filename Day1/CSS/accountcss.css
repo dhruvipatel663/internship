@@ -1,0 +1,42 @@
+#src2{
+    float : right;
+}
+.firstdiv font{
+    text-align: center;
+}
+.div1
+{
+    border : 3px solid black;
+    margin-left: 515px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    height : 500px;
+    width : 500px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+input,select
+{
+    padding : 15px;
+    width : 350px;
+    border : none;
+    outline : none;
+    border-bottom : 2px solid black;
+    background-color: rgb(218, 204, 204);
+}
+table
+{
+    border-spacing: 10px;
+}
+input[type="submit"]
+{
+    background-color: rgb(117, 106, 106);
+    width : 470px;
+}
+input[type=submit]:hover
+{
+    background-color: rgb(90, 85, 85);
+}
+font
+{
+    margin-top: 20px;
+}

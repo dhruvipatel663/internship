@@ -1,0 +1,34 @@
+.content{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 100px;
+    width : 75%;
+    height : 1000px;
+    padding : 20px;
+    box-sizing: border-box;
+}
+.content p{
+    word-spacing: 5px;
+    font-size : 18px;
+}
+table{
+    height: 150px;
+    width : 80%;
+    border : 2px solid blue;
+}
+table,th,td{
+    border : 1px solid gray;
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+table{
+    border : 2px solid blue;
+}
+th{
+    text-align: left;
+    background-color: rgb(182, 182, 238);
+}
+.table2{
+    height : 200px;
+    border : 2px solid blue;
+}

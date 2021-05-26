@@ -1,0 +1,117 @@
+*
+{
+    padding : 0;
+    margin : 0;
+}
+.navbar
+{
+    display : flex;
+    background-color: #888888;
+}
+.navdiv img
+{
+    width : 150x;
+    height : 150px;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+.navdiv
+{
+    display : flex;
+    width : 76%;
+}
+.search
+{
+    text-align : right;
+    padding-top : 20px;
+    padding-left: 60px;
+}
+.search input
+{
+    border : 2px solid grey;
+    padding : 5px;
+    font-size: 16px;
+    outline : none;
+}
+.search button
+{
+    font-size: 18px;
+    height : 30px;
+    width : 70px;
+}
+.list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list li
+{
+    list-style: none;
+    padding : 14px;
+    
+}
+.list li a
+{
+    color : black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.list li a:hover
+{
+    color : white;
+}
+.list li a:active{
+    color : white;
+    text-decoration: underline;
+    border-bottom: 1px solid white;
+}
+.img{
+    width : 100%;
+    height : 400px;
+}
+.top{
+    text-align: center;
+    font-weight: bolder;
+}
+.topnav{
+    width : 100%;
+    height : 80px;
+    display: flex;
+    text-align: center;
+    padding-left: 130px;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+}
+.content1{
+    height : 300px;
+    width : 700px;
+    margin-left: 20px;
+}
+.content2{
+    margin-left: 100px;
+}
+.footer{
+    background-color: rgba(0,0,0,0.75);
+    height : 80px;
+    padding : 30px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    color : white;
+}
+.slider{
+    width : 100%;
+    height : 400px;
+    background-image: url("Images/College-Building.jpg");
+    background-size: 100% 100%;
+    animation : slider 15s infinite ease-in;
+    animation-delay: 5s;
+    transition: 5s;
+}
+@keyframes slider{
+    0%{ background-image: url("Images/College-Building.jpg");}
+    25%{ background-image: url("Images/College-Building2.jpg");}
+    70%{ background-image: url("Images/mbitclg.jpg");}
+}

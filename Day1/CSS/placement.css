@@ -1,0 +1,37 @@
+.contents{
+    display: flex;
+    width : 100%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.body1{
+    width : 900px;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    word-spacing: 6px;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+.body1 pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body2{
+    width : 400px;
+    box-sizing: border-box;
+    margin-left : 50px;
+    margin-top: 40px;
+}
+.recruit{
+    width : 70%;
+    height : 250px;
+    border : 1px solid black;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+.images{
+    padding : 10px;
+}
+.images img{
+    height : 90px;
+    width : 200px;
+}

@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.about{
+    display: flex;
+    box-sizing: border-box;
+}
+.div1{
+    height : 500px;
+    width : 150px;
+    margin : 50px;
+}
+a{
+    text-decoration: none;
+    color : black;
+    font-size: 50px;
+}
+.icon{
+    size : 50px;
+    margin : 10px;
+}
+.div2{
+    margin : 50px;
+    height : 500px;
+    width : 70%;
+}
+.div2 img{
+    border-radius: 150px;
+    height : 200px;
+    width : 200px;
+    cursor: pointer;
+}
+.div2 figcaption{
+    text-align: center;
+}
+.div2 td{
+    padding : 14px;
+    width : 300px;
+}
+.div2 table{
+    border-spacing: 20px;
+}
+.div2 font{
+    word-spacing: 8px;
+}

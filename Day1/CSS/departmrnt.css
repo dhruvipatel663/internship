@@ -1,0 +1,21 @@
+.dept1{
+    box-sizing: border-box;
+    height : 300px;
+    width : 75%;
+    margin : 30px;
+    margin-left: 200px;
+}
+p{
+    font-size: 16px;
+    word-spacing: 6px;
+}
+aside{
+    width : 18%;
+	padding-left : 10px;
+	background-color : rgb(145, 184, 168);
+	font-style : italic;
+	margin-left : 15px;
+	float : right;
+	display : block;
+    font-size: 18px;
+}

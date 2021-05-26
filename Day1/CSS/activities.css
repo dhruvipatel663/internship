@@ -1,0 +1,21 @@
+.content{
+    box-sizing: border-box;
+    height : 850px;
+    width : 75%;
+    margin : 30px;
+    margin-left: 200px;
+}
+.list2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list2 li
+{
+    list-style: none;
+    padding : 14px;
+}
+table{
+    border-spacing: 15px;
+}

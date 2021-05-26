@@ -1,0 +1,43 @@
+.content{
+    margin-left: 150px;
+    padding : 20px;
+    width : 75%;
+}
+.address{
+    width : 50%;
+}
+.p1{
+  font-size: 50px;  
+}
+td{
+    padding : 12px;
+}
+.td2p{
+    color : blue;
+}
+table tr{
+    border-spacing: 10px;
+}
+.maindiv{
+    display: flex;
+}
+.forms{
+    width : 50%;
+    margin-top : 30px;
+}
+.formtable input{
+    border : 2px solid gray;
+    width : 200px;
+    padding : 7px;
+    outline-color: blueviolet;
+}
+.formtable input[type=submit]{
+    width : 100px;
+    background-color: blueviolet;
+}
+textarea{
+    width : 218px;
+    height : 200px;
+    border : 2px solid gray;
+    outline-color : blueviolet;  
+}
