@@ -1,0 +1,44 @@
+.form-info table{
+    width : 50%;
+    border-spacing: 10px;
+}
+.form-info input{
+    width : 150px;
+    outline : none;
+    padding : 9px;
+    border : 2px solid #248585; 
+}
+input[type=submit]{
+    background-color:#248585;
+    color : black;
+}
+#sidebar ul{
+    display: inline-block;
+}
+#sidebar  a{
+    text-decoration: none;
+    font-size: 30px;
+    width : 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(0,0,0,0.5);
+    color : black;
+    display: flex;
+    border-radius : 50%;
+}
+#sidebar a:hover{
+    text-decoration: none;
+}
+#sidebar .fb:hover{
+    color : #3b5998;
+}
+#sidebar .tw:hover{
+    color : #00aced;
+}
+#sidebar .li:hover{
+    color : #007bb6;
+}
+

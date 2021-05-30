@@ -1,0 +1,44 @@
+#sidebar table{
+    border-spacing: 10px;
+}
+#sidebar input{
+    padding : 10px;
+    outline : none;
+    border : 2px solid #D75C19;
+    background: transparent;
+    color : white;
+}
+#sidebar input[type=submit]{
+    background:#D75C19;
+    color : black;
+}
+#sidebar input[type=submit]:hover{
+    background: transparent;
+    color : white;
+}
+#sidebar #text{
+    border : 2px solid #D75c19;
+    outline : none;
+    background: transparent;
+}
+.content{
+    margin-left: 150px;
+    padding : 20px;
+    width : 75%;
+}
+.address{
+    width : 50%;
+}
+.p1{
+  font-size: 30px;  
+}
+td{
+    padding : 12px;
+}
+.td2p{
+    color : blue;
+}
+table tr{
+    border-spacing: 10px;
+}
+
